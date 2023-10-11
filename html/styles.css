@@ -1,0 +1,15 @@
+fieldset {
+  width: 250px;
+  padding: 0;
+}
+
+.input{
+  max-width: 220px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+  border: 0;
+  width: 100%;
+}
+
+/* SHA256:qevAcWohsVczoK9y0ZqSHJ/sNAeeWyT9YnVdR1RNBzM */
