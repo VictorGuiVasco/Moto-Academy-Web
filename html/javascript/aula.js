@@ -1,26 +1,25 @@
-const array = ["Victor", "Guilherme", "Cavalcante", "De", "Vasconcelos"];
-
-const obj = {
-  name: "victor",
-  idade: 21,
-  endereço: {
-    bairro: "---",
-    rua: "---",
-    numero: 0,
+let array = [
+  {
+    id: 1,
+    name: "John",
+    age: 23,
   },
-  hobs: ["trabalhar", "trabalhar mais", "trabalhar muito"],
-  acao: function () {
-    console.log(obj.hobs[1]);
+  {
+    id: 2,
+    name: "Samuel",
+    age: 21,
   },
-};
+  {
+    id: 3,
+    name: "marvin",
+    age: 26,
+  },
+  {
+    id: 4,
+    name: "james",
+    age: 28,
+  },
+];
 
-// obj.acao();
-// console.log(obj);
-
-// for (let i = 0; i < 4; i++) {
-//   console.log(i);
-//   if (i == 2) return;
-// }
-
-const date = new Date();
-console.log(date);
+const test = array.map((item) => (item.age === 28 ? item.age : 0));
+console.log(test);
